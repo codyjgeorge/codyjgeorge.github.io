@@ -1,0 +1,11 @@
+h1 {
+  text-align: center;
+}
+
+.box {
+  width: 1300px;
+  height: 800px;
+  border: 10px solid hotpink;
+  padding: 100px;
+  margin: 100px;
+}
