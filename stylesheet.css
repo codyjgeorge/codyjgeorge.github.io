@@ -28,5 +28,6 @@ div {
   background-color: #90ee90;
   opacity: 0.5;
   width: 200px;
-  height: 100px;
+  height: 160px;
+  margin: 0 auto;
 }
