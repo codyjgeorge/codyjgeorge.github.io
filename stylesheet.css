@@ -23,11 +23,19 @@ body::before {
  filter: blur(8px); /* Adjust blur radius (e.g., 5px, 10px) */
  z-index: -1;
 }
-div {
-  padding: 4;
+.tile {
+  display: inline-block;
+  padding: 4px;
+  border: 2px solid black;
+  overflow: hidden;
   background-color: #90ee90;
   opacity: 0.5;
   width: 200px;
   height: 160px;
-  margin: 0 auto;
+  margin: 10px;
+  text-align: center;
+  line-height: center;
+}
+label {
+  line-height: center;
 }
