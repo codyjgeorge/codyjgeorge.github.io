@@ -24,7 +24,8 @@ body::before {
  z-index: -1;
 }
 .tile {
-  display: inline-block;
+  display: inline-block, flex;
+  justify-content: center;
   padding: 4px;
   border: 2px solid black;
   overflow: hidden;
