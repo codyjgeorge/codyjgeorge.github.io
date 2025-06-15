@@ -24,7 +24,7 @@ body::before {
  z-index: -1;
 }
 .tile {
-  display: inline-block, flex;
+  display: inline, flex;
   justify-content: center;
   padding: 4px;
   border: 2px solid black;
@@ -32,11 +32,16 @@ body::before {
   background-color: #90ee90;
   opacity: 0.5;
   width: 200px;
-  height: 160px;
+  height: auto;
   margin: 10px;
   text-align: center;
   line-height: center;
 }
 label {
   line-height: center;
+}
+li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
